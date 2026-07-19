@@ -1,3 +1,9 @@
 {
-  "name": "poletikuvastased-retseptid-v2"
+  "name": "poletikuvastased-retseptid-v2",
+  "rewrites": [
+    {
+      "source": "/.well-known/apple-developer-merchantid-domain-association",
+      "destination": "https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association"
+    }
+  ]
 }
